@@ -7,14 +7,12 @@
 
     <groupId>devops.calc</groupId>
     <artifactId>calculator</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
+    <version>1.0.0</version>
     <packaging>jar</packaging>
 
     <name>DevOps Calculator</name>
 
-    <!-- ================= -->
-    <!-- Properties -->
-    <!-- ================= -->
+    <!-- Jenkins / CI friendly properties -->
     <properties>
         <java.version>17</java.version>
         <maven.compiler.source>${java.version}</maven.compiler.source>
@@ -22,20 +20,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
-    <!-- ================= -->
-    <!-- Build -->
-    <!-- ================= -->
     <build>
         <plugins>
 
-            <!-- Compile Java -->
+            <!-- Compile Java source -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <version>3.11.0</version>
             </plugin>
 
-            <!-- Create executable JAR -->
+            <!-- Create executable JAR automatically on every build -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-jar-plugin</artifactId>
