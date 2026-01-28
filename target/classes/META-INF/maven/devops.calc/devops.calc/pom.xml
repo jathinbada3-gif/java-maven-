@@ -21,7 +21,7 @@
 <manifest>
 <addClasspath>true</addClasspath>
 <classpathPrefix>lib/</classpathPrefix>
-<mainClass>Mydevops</mainClass>
+<mainClass>devops.calc.Mydevops</mainClass>
 </manifest>
 </archive>
 </configuration>

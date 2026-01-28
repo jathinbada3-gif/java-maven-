@@ -1,6 +1,6 @@
 Manifest-Version: 1.0
 Built-By: lenovo
 Build-Jdk: 21.0.8
-Main-Class: Mydevops
+Main-Class: devops.calc.Mydevops
 Created-By: Maven Integration for Eclipse
 
