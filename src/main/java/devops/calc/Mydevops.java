@@ -16,12 +16,12 @@ public class Mydevops {
 	        System.out.println("Enter second number:");
 	        int b = sc.nextInt();
 
-	        System.out.println("Addition: " + (20 + 30));
-	        System.out.println("Subtraction: " + (50 - 20));
+	        System.out.println("Addition: " + (a + b));
+	        System.out.println("Subtraction: " + (a - b));
 	        
 
 	        if (b != 0) {
-	            System.out.println("Division: " + (40 / 2));
+	            System.out.println("Division: " + (a / b));
 	        } else {
 	            System.out.println("Division: Not possible (divide by zero)");
 	        }
