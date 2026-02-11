@@ -30,10 +30,11 @@ pipeline
 				}
 			}
 			stage('Build Success')
-			{
+		
 				steps
-				{
+			{
 					echo 'Build Success'
+			}
 					stage('Final Success')
 			{
 				steps
@@ -44,4 +45,4 @@ pipeline
 				}
 			}	
 		}
-}
+
